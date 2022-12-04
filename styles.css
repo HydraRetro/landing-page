@@ -1,0 +1,152 @@
+/* https://coolors.co/palette/e63946-f1faee-a8dadc-457b9d-1d3557 */
+
+body {
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.header_main {
+    background-color: #1D3557;
+    padding: 8px 96px 96px 96px;
+}
+a {
+    color: #F1FAEE;
+    text-decoration: none;
+    padding: 5px;
+}
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.header2 {
+    color: rgb(241, 250, 238);
+    padding-top: 30px;
+    display: flex;
+    flex-flow: row nowrap;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.header2 img {
+    max-width: 450px;
+}
+#name {
+    padding-right: 100px;
+}
+h1 {
+    color: #E63946;
+}
+#button1 {
+    color: #F1FAEE;
+    background-color: #457B9D;
+    border-radius: 5px;
+    padding: 3px 10px 3px 10px;
+}
+
+/* info_main */
+.info_main {
+    background-color: rgb(241, 250, 238);
+    padding: 24px 96px 48px 96px;
+    display: flex;
+    flex-flow: row wrap;
+    place-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+#images img {
+    margin: 15px;
+    border: 3px solid #E63946;
+    border-radius: 10px;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3)
+}
+
+/* quote_main */
+.quote {
+    color: #F1FAEE;
+    background-color: #A8DADC;
+    padding: 96px;
+    font-style: italic;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-shadow: 1px 3px 15px #1D3557;
+}
+.quote p {
+    font-size: 20px;
+}
+.quote span{
+    font-style: normal;
+    font-weight: bold;
+}
+
+/* Call to action */
+.action {
+    background-color: #457B9D;
+    padding: 70px 150px 70px 150px;
+}
+.container {
+    background-color: #E63946;
+    color: #F1FAEE;
+    padding: 10px 96px 10px 96px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#button2 {
+    color: #F1FAEE;
+    border-color: white;
+    background-color: #E63946;
+    padding: 5px 25px 5px 25px;
+}
+
+/* footer  */
+ footer {
+    color: #F1FAEE;
+    font-size: 10px;
+    background-color: #1D3557;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ /* lol_button */
+
+.lol_body {
+    background-color: #E63946;
+    color: #A8DADC;
+}
+.lol_main {
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.lol_main a {
+    color: #A8DADC;
+}
+.secret {
+    text-align: center;
+}
+#lol_button1 {
+    border: 5px solid #1D3557 ;
+    padding: 10px;
+}
